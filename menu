@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clément MAGNAN - CV</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0d0d0d;
+            background-image: linear-gradient(45deg, #1a1a1a 25%, transparent 25%), linear-gradient(-45deg, #1a1a1a 25%, transparent 25%);
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        /* Menu de navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #1a1a1a;
+            padding: 10px 0;
+            box-shadow: 0px 4px 15px rgba(255, 102, 0, 0.6);
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #ff6600;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ff0080;
+        }
+
+        header {
+            background: linear-gradient(45deg, #ff0080, #ff6600);
+            padding: 40px;
+            border-bottom: 4px solid #ff6600;
+            box-shadow: 0px 4px 15px rgba(255, 102, 0, 0.6);
+            animation: fadeIn 1.5s ease-in-out;
+            margin-top: 80px; /* Pour décaler le contenu sous la barre de navigation */
+        }
+        h1 {
+            margin: 0;
+            font-size: 3.5em;
+            font-weight: 700;
+        }
+        p {
+            font-size: 1.3em;
+        }
+        section {
+            margin: 50px auto;
+            max-width: 900px;
+            padding: 30px;
+            background: #1e1e1e;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(255, 102, 0, 0.6);
+            transition: transform 0.3s ease-in-out;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        h2 {
+            color: #ff6600;
+            border-bottom: 3px solid #ff6600;
+            display: inline-block;
+            padding-bottom: 5px;
+            font-size: 2em;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #282828;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            transition: 0.3s;
+            font-size: 1.2em;
+        }
+        ul li:hover {
+            background: #ff6600;
+            color: #121212;
+        }
+        .contact p {
+            font-size: 1.2em;
+            margin: 8px 0;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Barre de sélection de catégories -->
+    <nav>
+        <ul>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#infos-personnelles">Informations Personnelles</a></li>
+            <li><a href="#experience">Expérience</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#langues">Langues</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Clément MAGNAN</h1>
+        <p>STAGE MAINTENANCE – NIVEAU 2° PRO (MPIA)</p>
+    </header>
+    
+    <section class="profile" id="profil">
+        <h2>Profil</h2>
+        <p>Passionné par tous les domaines de la maintenance, j'ai toujours privilégié l'apprentissage et l'adaptation de mes connaissances en fonction des besoins rencontrés. Grâce à mes expériences personnelles et aux professionnels avec lesquels j'ai eu l'opportunité de travailler, j'ai pu développer des compétences pratiques et stratégiques dans ce domaine.</p>
+    </section>
+    
+    <section class="personal-info" id="infos-personnelles">
+        <h2>Informations Personnelles</h2>
+        <ul>
+            <li>Nom : Clément MAGNAN</li>
+            <li>Âge : 15 ans (né le 14 mars 2009)</li>
+            <li>Adresse : 24 Les Hauts Mortiers, 44190 Gorges</li>
+            <li>Téléphone : 07 87 27 31 95</li>
+            <li>Email : <a href="mailto:clementmagnan96@gmail.com">clementmagnan96@gmail.com</a></li>
+        </ul>
+    </section>
+    
+    <section class="experience" id="experience">
+        <h2>Expérience</h2>
+        <ul>
+            <li><strong>09/2024 - Aujourd'hui</strong> : Lycée François Arago, Nantes (44) – Étudiant en Maintenance</li>
+            <li><strong>09/2000 - 07/2024</strong> : Collège Pierre Abelard, Vallet (44) – Élève (obtention du diplôme de médiateur en 6ème, application de ce rôle jusqu’en 3ème)</li>
+            <li><strong>19/02/2024 - 23/02/2024</strong> : SUEZ, La Chapelle-sur-Erdre (44) – Stagiaire Univers Numérique
+                <ul>
+                    <li>Échanges avec les salariés pour découvrir leur métier et le fonctionnement de l’entreprise.</li>
+                    <li>Accompagnement d’un salarié dans son travail, réalisation de tâches simples sous supervision.</li>
+                    <li>Assistance dans les tâches quotidiennes des employés expérimentés.</li>
+                    <li>Exécution rapide et efficace des tâches assignées.</li>
+                    <li>Adaptation rapide aux différents interlocuteurs et proposition de solutions.</li>
+                    <li>Gestion du temps efficace pour respecter les délais impartis.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="skills" id="competences">
+        <h2>Compétences</h2>
+        <ul>
+            <li>Programmation et utilisation des moteurs de développement de jeux numériques.</li>
+            <li>Coordination d’équipe dans la production de vidéos et gestion de projets.</li>
+            <li>Recrutement et sélection de talents, supervision de missions, communication efficace, et résolution créative de défis techniques.</li>
+            <li>Polyvalence dans l’utilisation d’outils et technologies, avec capacité de leadership et de prise de décision stratégique.</li>
+            <li>Connaissances des systèmes de maintenance mécaniques et électromécaniques.</li>
+            <li>Utilisation d'outils et technologies pour la gestion et l'administration de serveurs.</li>
+        </ul>
+    </section>
+
+    <section class="languages" id="langues">
+        <h2>Langues</h2>
+        <ul>
+            <li><strong>Langues maîtrisées :</strong> Anglais, Américain, Français, Italien</li>
+            <li><strong>Langues de base :</strong> Russe, Grec, Allemand, Espagnol, Ukrainien, Arabe</li>
+            <li><strong>Compréhension avancée :</strong> Latin, Grec ancien</li>
+        </ul>
+    </section>
+</body>
+</html>
